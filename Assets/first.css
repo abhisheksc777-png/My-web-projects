@@ -1,0 +1,105 @@
+html{
+ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP0NtxeFESf4XuTnfuMrjXXnJlVmlxpgrYIQ&s);
+ background-repeat: repeat;
+ background-size: cover;
+}
+  a{
+    text-decoration: none;
+  }
+  article{
+    text-align: right;
+  }
+  details{
+    text-align: right;
+  }
+
+  .logo-img {
+    width: 50px;
+    height: 50px;
+  }
+  body {
+    margin: 0;
+    padding: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 2;
+  }
+  
+  p {
+    font-size: 1rem;      /* relative, scales better */
+ } 
+  
+  h1 {
+    color: brown;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 8px;
+  }
+  section.socials {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 12px 0 24px;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 8px auto;
+  }
+  h1 {
+    font-size: 2.2rem;      /* ~35px */
+    margin-bottom: 0.25rem;
+    color: brown;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  h2 {
+    font-size: 1.6rem;      /* ~26px */
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: brown;
+  }
+  
+  h3 {
+    font-size: 1.3rem;      /* ~21px */
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  h4 {
+    font-size: 1.1rem;      /* ~18px */
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+    text-align: center;
+  }
+  div{
+    font-size: 1 rem;
+    margin-top: 0;
+    text-align: right;
+  }
+  li{
+    font-size: 1 rem;
+    font-weight: 500;
+  }
+  .dashboard{
+    font-size: 1 rem;
+    font-weight: 500;
+    color: chocolate;
+  }
+  .video-row {
+    display: flex;          /* put children in a row */
+    gap: 16px;              /* space between videos */
+    justify-content: center;
+  }
+  
+  .video-row video {
+    max-width: 100%;
+    width: 45%;             /* each video takes about half row */
+    height: auto;
+  }
